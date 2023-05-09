@@ -17,7 +17,7 @@
   </head>
   <body>
     <!-- Rating state start -->
-    <form class="rating-state">
+    <form id="ratingState">
       <h2>How did we do?</h2>
       <p>
         Please let us know how we did with your support request. All feedback is
@@ -42,12 +42,16 @@
 
     <!-- Thank you state start -->
 
-    <div class="thank-you-state invisible">
+    <div class="invisible" id="thankYouState">
       <p>
         You selected
-        <!-- Add rating here -->
-        out of 5 Thank you! We appreciate you taking the time to give a rating.
-        If you ever need more support, don’t hesitate to get in touch!
+        <span id="rate"></span>
+        out of 5
+      </p>
+      <h2>Thank you!</h2>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
       </p>
     </div>
 
