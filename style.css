@@ -6,6 +6,19 @@
     display: none;
 }
 
+#one,
+#two,
+#three,
+#four,
+#five {
+    display: none;
+}
+
+#ratingScale {
+    height: 500px;
+    background-color: aqua;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
