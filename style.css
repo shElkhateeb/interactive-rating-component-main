@@ -17,6 +17,24 @@ body {
   background-color: var(--color-very-dark-blue);
 }
 
+#ratingState,
+#thankYouState {
+  width: 360px;
+  max-width: 88%;
+  padding: 10px;
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+#thankYouState {
+  text-align: center;
+}
+
 h2 {
     color: var(--color-white);
 }
