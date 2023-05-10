@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font: 15px "Overpass", sans-serif;
+}
+
 .invisible {
     display: none;
 }
