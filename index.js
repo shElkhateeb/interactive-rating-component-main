@@ -13,7 +13,7 @@ let thankYou = document.getElementById('thankYouState');
 let rating = document.getElementById('ratingState');
 
 submitButton.addEventListener('click', () => {
-    ratingState.classList.add('invisible');
+    rating.classList.add('invisible');
     document.getElementById('rate').innerText = rate;
     thankYou.classList.remove('invisible');
     submitButton.disabled = true;
