@@ -48,7 +48,9 @@ body {
   text-align: center;
 }
 
+h1,
 h2 {
+  font-size: calc(1.5rem + 0.25vw);
     color: var(--color-white);
 }
 
