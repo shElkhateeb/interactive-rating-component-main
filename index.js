@@ -5,6 +5,11 @@ let rate = 0;
 ratingScale.addEventListener('click', (event) => {
     if (event.target.tagName === 'INPUT') {
         rate = event.target.value;
+        //remove selected class from previous selection
+        for (let i = 0; i < ratingScale.childElementCount; i++) {
+            ratingScale.children[i].classList.remove('selected');
+        }
+        event.target.classList.add('selected');
         submitButton.disabled = false;
     }
 });

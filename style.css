@@ -83,12 +83,15 @@ h2 {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-
 #ratingScale > label:hover
 {
   background-color: var(--color-orange);
   color: var(--color-white);
   cursor: pointer;
+}
+#ratingScale > input.selected + label {
+  background-color: var(--color-medium-grey);
+  color: white;
 }
 
 #submit {
