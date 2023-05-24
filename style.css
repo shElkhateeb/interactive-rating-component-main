@@ -60,13 +60,14 @@ h2 {
 #ratingScale > input {
   display: none;
 }
-#ratingScale > label {
+#ratingScale > label,
+#starContainer {
   width: var(--height-button);
   height: var(--height-button);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-dark-blue);
+  background-color: hsla(216, 12%, 54%, 10%);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
