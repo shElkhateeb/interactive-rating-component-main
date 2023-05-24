@@ -84,6 +84,13 @@ h2 {
   -o-border-radius: 50%;
 }
 
+#ratingScale > label:hover
+{
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
 #submit {
   width: 100%;
   height: var(--height-button);
@@ -95,6 +102,11 @@ h2 {
   background-color: var(--color-orange);
   color: var(--color-white);
   font-weight: bold;
+}
+#submit:hover {
+  background-color: var(--color-white);
+  color: var(--color-orange);
+  cursor: pointer;
 }
 
 .your-rating {
