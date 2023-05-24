@@ -20,8 +20,8 @@ body {
 
 #ratingState,
 #thankYouState {
-  width: 360px;
-  max-width: 88%;
+  width: 400px;
+  max-width: 90%;
   padding: 2rem;
   position: absolute;
   left: 50vw;
@@ -37,6 +37,12 @@ body {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+@media screen and (max-width: 480px) {
+  #ratingState,
+#thankYouState {
+  padding: 1rem;
+}
 }
 #thankYouState {
   text-align: center;
