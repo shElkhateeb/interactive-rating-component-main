@@ -102,6 +102,7 @@ h2 {
   -moz-border-radius: calc(var(--height-button) / 2);
   -ms-border-radius: calc(var(--height-button) / 2);
   -o-border-radius: calc(var(--height-button) / 2);
+  border: none;
   background-color: var(--color-orange);
   color: var(--color-white);
   font-weight: bold;
